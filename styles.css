@@ -81,6 +81,7 @@
   text-align: center;
   border-radius: 8px;
   background: rgb(13, 19, 33);
+  text-decoration: none;
 }
 /* hero section style end  */
 
@@ -137,7 +138,6 @@
 .my-inspiration {
   margin: 74px 148px;
   padding: 0 97px; /*80px 97px*/
-  
 }
 
 .my-inspiration .my-inspiration-header {
@@ -161,9 +161,129 @@
   border-radius: 16px;
   margin-top: 0px;
 }
-.my-inspiration .video iframe{
+.my-inspiration .video iframe {
   border-radius: 16px;
 }
 
 /* my inspiration section style end  */
 
+/* my current target styles start  */
+.my-current-target {
+  margin: 74px 148px;
+  padding: 0 97px; /*80px 97px*/
+}
+
+.my-current-target .my-current-target-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 48px;
+}
+.my-current-target .my-current-target-header p {
+  text-align: center;
+}
+
+.my-current-target .my-current-target-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.my-current-target .my-current-target-cards .card {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.my-current-target .my-current-target-cards .card img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.my-current-target .my-current-target-cards .card h3 {
+  color: rgba(13, 19, 33);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.my-current-target .my-current-target-cards .card a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+/* my current target styles end  */
+
+/* i-need-support section styles start  */
+
+.i-need-support {
+  width: 1140px;
+  height: 315px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 48px;
+  background-image: url("./assets/handshake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+  border-radius: 16px;
+  /* background: rgba(0, 0, 0, 0.2); */
+  background-blend-mode: darken;
+}
+
+.i-need-support h3 {
+  color: white;
+}
+.i-need-support p {
+  color: white;
+}
+
+.i-need-support form input {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  /* border-radius: 8px; */
+  width: 548px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+.i-need-support form button {
+  color: rgb(13, 19, 33);
+  padding: 17px 20px ;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* i-need-support section styles end  */
+
+/* footer section styles start  */
+footer{
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .social-link{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10px;
+  width: 157px;
+  height: 36px;
+  margin-bottom: 100px;
+}
+footer .social-link a img{
+  width: 25px;
+}
