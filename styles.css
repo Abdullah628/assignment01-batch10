@@ -43,6 +43,36 @@
   text-align: left;
   margin-bottom: 16px;
 }
+/* nav bar style start  */
+nav {
+  width: 1176px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+nav h2 {
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+}
+
+nav .nav-btn {
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px;
+  cursor: pointer;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+}
 
 /* hero section style start  */
 .hero {
@@ -236,8 +266,9 @@
   background-size: cover;
   margin-bottom: 100px;
   border-radius: 16px;
-  /* background: rgba(0, 0, 0, 0.2); */
-  background-blend-mode: darken;
+  background-color: rgba(0,0,0,0.2);
+  /* opacity: 0.2; */
+  /* background-blend-mode:overlay; */
 }
 
 .i-need-support h3 {
@@ -256,7 +287,7 @@
 }
 .i-need-support form button {
   color: rgb(13, 19, 33);
-  padding: 17px 20px ;
+  padding: 17px 20px;
   font-size: 20px;
   cursor: pointer;
   font-weight: 600;
@@ -268,14 +299,14 @@
 /* i-need-support section styles end  */
 
 /* footer section styles start  */
-footer{
+footer {
   width: 1140px;
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-footer .social-link{
+footer .social-link {
   display: flex;
   justify-content: space-around;
   margin: 0 10px;
@@ -283,6 +314,6 @@ footer .social-link{
   height: 36px;
   margin-bottom: 100px;
 }
-footer .social-link a img{
+footer .social-link a img {
   width: 25px;
 }
