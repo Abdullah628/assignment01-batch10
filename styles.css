@@ -46,7 +46,7 @@
 
 /* hero section style start  */
 .hero {
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("./assets/Hero-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -250,7 +250,6 @@
 .i-need-support form input {
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.15);
-  /* border-radius: 8px; */
   width: 548px;
   background: rgb(255, 255, 255);
   padding: 20px;
